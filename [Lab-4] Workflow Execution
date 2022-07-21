@@ -1,1 +1,6 @@
+Login to Morpheus Portal.
+Go to Library > Automation > Workflow.
+Find " training-operation-workflow " > Click on the workflow > Execute.
+Context Type is " Instance " > Add instance name in context instance > Execute.
+Workflow execution result is show under "Executions" tab.
 
