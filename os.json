@@ -1,13 +1,17 @@
-[{
-“id”: 1,
-“os”: “RHEL8”,
-“az”: “us-east-1b”
-}, {
-“id”: 2,
-“os”: “AL2”,
-“az”: “us-east-1b”
-}, {
-“id”: 3,
-“os”: “Windows”,
-“az”: “us-east-1c”
-}]
+[
+  {
+    "id": 1,
+    "os": "RHEL8",
+    "az": "us-east-1b"
+  },
+  {
+    "id": 2,
+    "os": "AL2",
+    "az": "us-east-1b"
+  },
+  {
+    "id": 3,
+    "os": "Windows",
+    "az": "us-east-1c"
+  }
+]
