@@ -7,8 +7,8 @@ terraform {
 }
 provider "aws" {
   region     = "us-east-1"
-  access_key = ""
-  secret_key = ""
+  access_key = "AKIAVH2BZOIJC4IRN5XC"
+  secret_key = "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"
 }
 resource "aws_instance" "ec2-vm" {
   ami                    = "ami-02396cdd13e9a1257"
