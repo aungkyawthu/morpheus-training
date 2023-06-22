@@ -1,7 +1,0 @@
-Login to Morpheus Portal.
-Go to Library > Automation > Tasks.
-Find " training-ansible_centos-mariadb " task and edit on this task.
-# Validate the ansible playbook yaml file "centos-mysql.yml" which is using ansible git repo.
-Go to Provisioning > Instances > Click on the instance name.
-Actions > Run Task > Select "training-ansible_centos-mariadb" task and Execute it.
-# Status can see under instance history tab.
