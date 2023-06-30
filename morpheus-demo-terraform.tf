@@ -34,3 +34,7 @@ resource "aws_instance" "ec2-vm" {
     Name = "morpheus-ec2-tf-instance"
   }
 }
+resource "aws_eip" "eip" {
+  instance = aws_instance.ec2-vm.id
+  domain   = "vpc"
+}
