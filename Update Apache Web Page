@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Create a custom banner using Morpheus variables
+cat <<EOF > /var/www/html/index.html
+<html>
+<head><title>Morpheus Lab</title></head>
+<body>
+<h1>Welcome to your demo VM!</h1>
+<p><strong>Instance:</strong> <%= container.server.hostname %> </p>
+<p><strong>Created By:</strong> <%=instance.createdByUsername%> </p>
+<p><strong>Database Password:</strong> <%=cypher.read('secret/dbpassword')%> </p>
+</body>
+</html>
+EOF
