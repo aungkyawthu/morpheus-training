@@ -1,4 +1,3 @@
----
 - name: This is to add user on instances
   hosts: all
   become: yes
