@@ -1,6 +1,5 @@
 - name: This is to add user on instances
   hosts: all
-  become: yes
   tasks:
     - set_fact:
         #userpass: "{{ morpheus['customOptions']['password'] }}"
